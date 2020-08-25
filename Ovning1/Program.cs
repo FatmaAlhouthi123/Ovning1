@@ -6,7 +6,9 @@ namespace Ovning1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee call = new Employee();
+            call.EmployeeNameSalary();
+            
         }
     }
 }
