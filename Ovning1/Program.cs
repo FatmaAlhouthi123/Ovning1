@@ -8,20 +8,21 @@ namespace Ovning1
         {
             Employee call = new Employee();
             Boolean continu= true;
-
+            Console.WriteLine("hello welcome to employee register");
             while (continu) {
-                Console.WriteLine("hello  Do you want to add an employee  write yes or no ");
+                Console.WriteLine("  Do you want to add an employee  write yes or no ");
                 string answer = Console.ReadLine();
                 if (answer == "yes")
                 {
                     call.EmployeeName();
                     call.EmployeeSalary();
 
-                    Console.WriteLine("  Do you want to add more employeer  write yes or no ");
-                    answer = Console.ReadLine();
-                    if (answer == "no") break;
-
+              
             }
+                else
+                {
+                    break;
+                }
 
             }
             call.EmployeeInfo();

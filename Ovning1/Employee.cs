@@ -42,20 +42,15 @@ namespace Ovning1
         }
         public void EmployeeInfo()
         {
-            foreach (string name in EmployeeNameList)
-            {
-                 names = name + " ";
-            }
-            foreach (string salary in EmployeeNameList)
-            {
-                salarys = salary + " ";
-
-
-            }
             for (int i = 0; i < EmplyeesNumber; i++)
-                Console.WriteLine("name: " + names[i] + "     salary: " + salarys[i] + "kr");
+            {
+                Console.WriteLine("name:" + EmployeeNameList[i] + " salary" +  EmployeeSarayList[i]);
+            }
 
-        }
+
+
+           
+          }
 
 
 
